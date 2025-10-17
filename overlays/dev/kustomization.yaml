@@ -1,5 +1,3 @@
-cd ~/projects/manifest-repo
-cat > overlays/dev/kustomization.yaml <<'YAML'
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: dev
@@ -8,9 +6,4 @@ resources:
 images:
   - name: docker.io/nam3/pipeline-sample
     newTag: latest
-YAML
-
-git add overlays/dev/kustomization.yaml
-git commit -m "fix(dev): ensure images block exists and matches CI"
-git pull --rebase origin main   # (필요 시 충돌 해결)
-git push
+    
