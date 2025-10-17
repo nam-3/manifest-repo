@@ -5,4 +5,4 @@ resources:
   - ../../base
 images:
   - name: docker.io/nam3/pipeline-sample
-    newTag: v20251017-124316-d8005e7
+    newTag: v20251017-124423-61cd669
