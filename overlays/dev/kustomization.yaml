@@ -5,4 +5,4 @@ resources:
   - ../../base
 # 필요 시 patches 적용 가능
 
-
+images: []
