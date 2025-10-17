@@ -4,6 +4,5 @@ namespace: dev
 resources:
   - ../../base
 images:
-  - name: docker.io/nam3/pipeline-sample 
-    newTag: latest
-    
+  - name: docker.io/nam3/pipeline-sample
+    newTag: v20251017-124316-d8005e7
